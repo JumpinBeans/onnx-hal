@@ -1,0 +1,10 @@
+[package]
+name = "onnx-hal"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+onnxruntime = { version = "0.0.18", features = ["download-binaries"] }
+ndarray = "0.15"
+anyhow = "1.0"
+log = "0.4"
